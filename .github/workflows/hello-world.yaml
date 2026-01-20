@@ -1,5 +1,5 @@
 name: hello-world
-on: push
+on: 
   schedule:
     # Run every day at 2:00 AM UTC
     - cron: '/1 * * * *'
