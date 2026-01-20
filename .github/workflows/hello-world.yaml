@@ -1,8 +1,8 @@
 name: hello-world
-on:
+on: push
   schedule:
     # Run every day at 2:00 AM UTC
-    - cron: '05 * * * *'
+    - cron: '5 * * * *'
 jobs:
   my-job:
     runs-on: ubuntu-latest
